@@ -1,0 +1,240 @@
+{
+  "skill": "notes",
+  "cases": [
+    {
+      "text": "Заметка: молоко, хлеб, яйца",
+      "card": {
+        "title": "Молоко, хлеб, яйца",
+        "detail": "Молоко, хлеб, яйца"
+      }
+    },
+    {
+      "text": "новая заметка «Покупки»: молоко",
+      "card": {
+        "title": "Покупки",
+        "detail": "Молоко"
+      }
+    },
+    {
+      "text": "запиши в заметки: позвонить в банк про карту",
+      "card": {
+        "title": "Позвонить в банк про карту",
+        "detail": "Позвонить в банк про карту"
+      }
+    },
+    {
+      "text": "Сохрани в заметку идея для подарка — книга",
+      "card": {
+        "title": "Идея для подарка — книга",
+        "detail": "Идея для подарка — книга"
+      }
+    },
+    {
+      "text": "создай заметку Покупки: молоко, хлеб",
+      "card": {
+        "title": "Покупки",
+        "detail": "Молоко, хлеб"
+      }
+    },
+    {
+      "text": "Заметка: позвонить в банк про карту и спросить про лимит на снятие наличных",
+      "card": {
+        "title": "Позвонить в банк про карту и спросить…",
+        "detail": "Позвонить в банк про карту и спросить про лимит на снятие наличных"
+      }
+    },
+    {
+      "text": "Заметка - купить батарейки",
+      "card": {
+        "title": "Купить батарейки",
+        "detail": "Купить батарейки"
+      }
+    },
+    {
+      "text": "Заметка — купить батарейки",
+      "card": {
+        "title": "Купить батарейки",
+        "detail": "Купить батарейки"
+      }
+    },
+    {
+      "text": "note - buy milk",
+      "card": {
+        "title": "Buy milk",
+        "detail": "Buy milk"
+      }
+    },
+    {
+      "text": "новая заметка «Покупки» - молоко",
+      "card": {
+        "title": "Покупки",
+        "detail": "Молоко"
+      }
+    },
+    {
+      "text": "добавь в заметку Покупки - яйца",
+      "card": {
+        "title": "Покупки",
+        "detail": "+ Яйца"
+      }
+    },
+    {
+      "text": "добавь в последнюю заметку — сыр",
+      "card": {
+        "title": "Last note",
+        "detail": "+ Сыр"
+      }
+    },
+    {
+      "text": "создай заметку",
+      "ask": "Что записать в заметку?"
+    },
+    {
+      "text": "Note: buy milk",
+      "card": {
+        "title": "Buy milk",
+        "detail": "Buy milk"
+      }
+    },
+    {
+      "text": "make a note: the wifi password is on the router",
+      "card": {
+        "title": "The wifi password is on the router",
+        "detail": "The wifi password is on the router"
+      }
+    },
+    {
+      "text": "save to notes: dentist is on 5th street",
+      "card": {
+        "title": "Dentist is on 5th street",
+        "detail": "Dentist is on 5th street"
+      }
+    },
+    {
+      "text": "make a note",
+      "ask": "What should the note say?"
+    },
+    {
+      "text": "добавь в заметку Покупки: яйца",
+      "card": {
+        "title": "Покупки",
+        "detail": "+ Яйца"
+      }
+    },
+    {
+      "text": "допиши в заметку «Покупки» сыр",
+      "card": {
+        "title": "Покупки",
+        "detail": "+ Сыр"
+      }
+    },
+    {
+      "text": "добавь в заметку Покупки яйца",
+      "card": {
+        "title": "Покупки",
+        "detail": "+ Яйца"
+      }
+    },
+    {
+      "text": "добавь в последнюю заметку купить батарейки",
+      "card": {
+        "title": "Last note",
+        "detail": "+ Купить батарейки"
+      }
+    },
+    {
+      "text": "добавь в заметку Покупки",
+      "ask": "Что добавить в «Покупки»?"
+    },
+    {
+      "text": "add to note Shopping: eggs",
+      "card": {
+        "title": "Shopping",
+        "detail": "+ Eggs"
+      }
+    },
+    {
+      "text": "add to the last note: call Anna",
+      "card": {
+        "title": "Last note",
+        "detail": "+ Call Anna"
+      }
+    },
+    {
+      "text": "add to the last note",
+      "ask": "What should I add to the note?"
+    },
+    {
+      "text": "add to the Shopping note: eggs",
+      "card": null
+    },
+    {
+      "text": "как сделать заметку?",
+      "card": null
+    },
+    {
+      "text": "что в заметке покупки?",
+      "card": null
+    },
+    {
+      "text": "я потерял все заметки",
+      "card": null
+    },
+    {
+      "text": "запиши меня к стоматологу на завтра",
+      "card": null
+    },
+    {
+      "text": "напомни купить молоко",
+      "card": null
+    },
+    {
+      "text": "напиши смс маме",
+      "card": null
+    },
+    {
+      "text": "Таймер на 10 минут",
+      "card": null
+    },
+    {
+      "text": "молоко и хлеб",
+      "before": "Что записать в заметку?",
+      "card": {
+        "title": "Молоко и хлеб",
+        "detail": "Молоко и хлеб"
+      }
+    },
+    {
+      "text": "buy milk",
+      "before": "What should the note say?",
+      "card": {
+        "title": "Buy milk",
+        "detail": "Buy milk"
+      }
+    },
+    {
+      "text": "купить батарейки",
+      "before": "Что добавить в заметку?",
+      "card": {
+        "title": "Last note",
+        "detail": "+ Купить батарейки"
+      }
+    },
+    {
+      "text": "сыр",
+      "before": "Что добавить в «Покупки»?",
+      "card": {
+        "title": "Покупки",
+        "detail": "+ Сыр"
+      }
+    },
+    {
+      "text": "eggs",
+      "before": "What should I add to “Shopping”?",
+      "card": {
+        "title": "Shopping",
+        "detail": "+ Eggs"
+      }
+    }
+  ]
+}

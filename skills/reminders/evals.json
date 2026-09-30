@@ -1,0 +1,195 @@
+{
+  "skill": "reminders",
+  "note": "Timers by rules. Reminders themselves go through the model: scripts/eval-intent.mjs.",
+  "cases": [
+    {
+      "text": "таймер на 10 минут",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "поставь таймер на полчаса",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 30 min"
+      }
+    },
+    {
+      "text": "таймер на час",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 1 h"
+      }
+    },
+    {
+      "text": "таймер на 5 минут, пельмени",
+      "card": {
+        "title": "Пельмени",
+        "detail": "Timer · 5 min"
+      }
+    },
+    {
+      "text": "Поставь таймер на пять минут",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 5 min"
+      }
+    },
+    {
+      "text": "таймер на 1,5 часа",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 1 h 30 min"
+      }
+    },
+    {
+      "text": "таймер на 2 часа — хлеб",
+      "card": {
+        "title": "Хлеб",
+        "detail": "Timer · 2 h"
+      }
+    },
+    {
+      "text": "таймер на 10 минут, чай“",
+      "card": {
+        "title": "Чай",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "Timer for 12 minutes, pasta",
+      "card": {
+        "title": "Pasta",
+        "detail": "Timer · 12 min"
+      }
+    },
+    {
+      "text": "set a timer for ten minutes",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "set a timer for 1 hour",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 1 h"
+      }
+    },
+    {
+      "text": "timer 45 min",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 45 min"
+      }
+    },
+    {
+      "text": "Таймер",
+      "ask": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "Можешь поставить таймер?",
+      "ask": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "поставь таймер",
+      "ask": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "Заведи таймер для яиц",
+      "ask": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "Can you set a timer?",
+      "ask": "How long should the timer run? For example: “10 minutes, pasta”."
+    },
+    {
+      "text": "start a timer",
+      "ask": "How long should the timer run? For example: “10 minutes, pasta”."
+    },
+    {
+      "text": "как работает таймер?"
+    },
+    {
+      "text": "Сколько стоит кухонный таймер?"
+    },
+    {
+      "text": "мой таймер сломался"
+    },
+    {
+      "text": "напомни проверить таймер"
+    },
+    {
+      "text": "What is a timer in JavaScript?"
+    },
+    {
+      "text": "напомни через 10 минут выключить духовку"
+    },
+    {
+      "text": "на 10 минут",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай».",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "10 минут, чай",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай».",
+      "card": {
+        "title": "Чай",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "10",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай».",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 10 min"
+      }
+    },
+    {
+      "text": "полчаса",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай».",
+      "card": {
+        "title": "Timer",
+        "detail": "Timer · 30 min"
+      }
+    },
+    {
+      "text": "на час — хлеб",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай».",
+      "card": {
+        "title": "Хлеб",
+        "detail": "Timer · 1 h"
+      }
+    },
+    {
+      "text": "5 minutes, pasta",
+      "before": "How long should the timer run? For example: “10 minutes, pasta”.",
+      "card": {
+        "title": "Pasta",
+        "detail": "Timer · 5 min"
+      }
+    },
+    {
+      "text": "0",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "не надо",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "а сколько варить яйца?",
+      "before": "На сколько поставить таймер? Например: «на 10 минут, чай»."
+    },
+    {
+      "text": "10 минут"
+    }
+  ]
+}

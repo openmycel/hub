@@ -1,0 +1,54 @@
+{
+  "skill": "wikipedia",
+  "cases": [
+    {
+      "text": "Tell me about Jupiter",
+      "act": { "title": "Jupiter", "lang": "en" }
+    },
+    {
+      "text": "Who was Ada Lovelace?",
+      "act": { "title": "Ada Lovelace", "lang": "en" }
+    },
+    {
+      "text": "What is a quasar?",
+      "act": { "title": "quasar", "lang": "en" }
+    },
+    {
+      "text": "what's the Great Barrier Reef",
+      "act": { "title": "Great Barrier Reef", "lang": "en" }
+    },
+    {
+      "text": "Look up Reykjavik on Wikipedia",
+      "act": { "title": "Reykjavik", "lang": "en" }
+    },
+    {
+      "text": "Расскажи про Юпитер",
+      "act": { "title": "Юпитер", "lang": "ru" }
+    },
+    {
+      "text": "расскажи мне о Байкале",
+      "act": { "title": "Байкале", "lang": "ru" }
+    },
+    {
+      "text": "Кто такой Пушкин?",
+      "act": { "title": "Пушкин", "lang": "ru" }
+    },
+    {
+      "text": "Что такое квазар",
+      "act": { "title": "квазар", "lang": "ru" }
+    },
+    {
+      "text": "Найди в википедии Рейкьявик",
+      "act": { "title": "Рейкьявик", "lang": "ru" }
+    },
+    { "text": "What is your name?", "act": null },
+    { "text": "What's the time?", "act": null },
+    { "text": "What's 20% of 3500?", "act": null },
+    { "text": "Что такое погода сегодня", "act": null },
+    { "text": "What is the best way to learn to cook pasta at home quickly", "act": null },
+    { "text": "Напомни мне о встрече завтра в 9", "act": null },
+    { "text": "How do I boil an egg?", "act": null },
+    { "text": "Кто ты?", "act": null },
+    { "text": "Tell me a joke", "act": null }
+  ]
+}
