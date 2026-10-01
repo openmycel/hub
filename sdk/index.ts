@@ -27,7 +27,8 @@ export type Manifest = {
   tagline: string;
   /** What it does and does not, on its Hub page. No promise it cannot keep. */
   description: string;
-  author: string;
+  /** Who publishes it: a folder `publishers/<id>/` with publisher.json and logo.png. */
+  publisher: string;
   /** Hub section: through the iPhone's own apps, inside the app, or an outside service. */
   category: "iphone" | "app" | "integration";
   /** An SF Symbol on a coloured tile; `scale` is the symbol's share of the tile. */
@@ -50,6 +51,21 @@ export type Manifest = {
    * refuses any other host before the request. "*.wikipedia.org": any one subdomain.
    */
   connections?: { host: string; why: string }[];
+};
+
+/**
+ * A publisher: `publishers/<id>/publisher.json`, with a square logo.png next to it. Hub
+ * shows its page: the logo, the name, the description and every skill and integration
+ * whose manifest names it.
+ */
+export type Publisher = {
+  /** Folder name, the `publisher` in a manifest: "openmycel". */
+  id: string;
+  name: string;
+  /** Who they are, on their page. A few sentences. */
+  description: string;
+  /** Their site or repo, opened from their page. */
+  url?: string;
 };
 
 /** The card the owner confirms. Nothing happens before the tap. */

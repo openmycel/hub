@@ -32,7 +32,7 @@ const skill: Skill = {
     tagline: "Texts written for you, you hit send",
     description:
       "Writes a short text from what you say and opens it in Messages. You pick who it goes to and send it; the app sends nothing.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "iphone",
     icon: { symbol: "message.fill", bg: "#34C759", fg: "#FFFFFF", scale: 0.62 },
     apps: ["Messages"],

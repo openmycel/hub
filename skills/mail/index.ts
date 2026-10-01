@@ -32,7 +32,7 @@ const skill: Skill = {
     tagline: "Emails written for you, you hit send",
     description:
       "Writes a short email from what you say and opens it in Mail. You pick who it goes to and send it; the app sends nothing.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "iphone",
     icon: { symbol: "envelope.fill", bg: "#1A8CFF", fg: "#FFFFFF", scale: 0.6 },
     apps: ["Mail"],

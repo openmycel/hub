@@ -22,7 +22,7 @@ const skill: Skill = {
     tagline: "Percentages and tips, counted exactly",
     description:
       "Counts a percentage of a number and a tip with the total. The numbers are counted by code, not by the model, so they are exact. Nothing leaves the phone.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "app",
     icon: { symbol: "percent", bg: "#FF9500", fg: "#FFFFFF", scale: 0.5 },
     examples: ["15% of 2400", "Tip 18% on 64.50", "What's 20% of 3500?"],

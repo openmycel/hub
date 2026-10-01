@@ -47,7 +47,7 @@ const skill: Skill = {
     tagline: "Percentages and tips, counted exactly",
     description:
       "Counts a percentage of a number and a tip with the total. The numbers are counted by code, not by the model, so they are exact. Nothing leaves the phone.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "app",
     icon: { symbol: "percent", bg: "#FF9500", fg: "#FFFFFF", scale: 0.5 },
     examples: ["15% of 2400", "Tip 18% on 64.50", "What's 20% of 3500?"],
@@ -102,9 +102,14 @@ article, a name, the text to send — stays in the owner's language.
 
 `sdk/index.ts` documents every field. The ones people see: `name`, `tagline`,
 `description` (no promise the skill cannot keep), `examples` (each is a case in your
-evals), `icon`, `author` and `category` — `iphone` (works through the iPhone's own apps),
+evals), `icon`, `publisher` and `category` — `iphone` (works through the iPhone's own apps),
 `app` (inside the app) or `integration` (an outside service). `priority` orders skills
 of one kind when two could take a message: lower goes first.
+
+`publisher` is the id of a folder in `publishers/`: `publisher.json` (`id`, `name`,
+`description`, an optional `url`) and a square `logo.png`. Hub shows the publisher's page
+with every skill and integration that names it. A new publisher comes in the same pull
+request as its first skill.
 
 ## Evals
 

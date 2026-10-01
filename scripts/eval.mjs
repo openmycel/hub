@@ -48,6 +48,19 @@ for (const { kind, id, dir } of folders) {
     );
     continue;
   }
+  // Its publisher: publishers/<id>/ with publisher.json naming the same id, and a logo.
+  const pub = skill.manifest.publisher;
+  const pubDir = join(hub, "publishers", String(pub));
+  const pubFile = join(pubDir, "publisher.json");
+  if (!pub || !existsSync(pubFile) || !existsSync(join(pubDir, "logo.png"))) {
+    fail(`publisher "${pub}" needs publishers/${pub}/publisher.json and logo.png`);
+    continue;
+  }
+  const publisher = JSON.parse(readFileSync(pubFile, "utf8"));
+  if (publisher.id !== pub || !publisher.name || !publisher.description) {
+    fail(`publishers/${pub}/publisher.json needs "id": "${pub}", a name and a description`);
+    continue;
+  }
   dirOf.set(id, dir);
   skills.push(skill);
 }

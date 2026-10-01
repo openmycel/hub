@@ -45,6 +45,7 @@ skills/<id>/        one skill
   README.md         what it does and does not
   logo.png          optional: its icon in Hub
 integrations/<id>/  one integration: the same files, plus the hosts it reaches
+publishers/<id>/    who publishes them: publisher.json and logo.png
 docs/               how to write a skill, an integration
 scripts/eval.mjs    runs every skill's evals through the router
 ```

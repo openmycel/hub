@@ -59,7 +59,7 @@ const skill: Skill = {
     tagline: "Notes from the chat, kept in the app",
     description:
       "Writes a new note or adds a line to one after you tap Save or Add. The notes stay in the app's encrypted data, in Folders, not in Apple Notes. Nothing leaves the phone.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "app",
     icon: { symbol: "note.text", bg: "#FFCC00", fg: "#FFFFFF", scale: 0.5 },
     can: "notes",

@@ -6,6 +6,8 @@ Before you open a pull request:
 
 - [ ] It is one folder — `skills/<id>/`, or `integrations/<id>/` with
       `category: "integration"` for an outside service — and `manifest.id` is `<id>`.
+- [ ] `manifest.publisher` is a folder in `publishers/`; a new one has `publisher.json`
+      and a square `logo.png`.
 - [ ] `index.ts` imports only its own files and the SDK types, with `import type`.
 - [ ] No network, storage, `setTimeout` or globals of its own: everything comes
       through the context.

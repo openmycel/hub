@@ -45,7 +45,7 @@ const skill: Skill = {
     tagline: "Events from the chat",
     description:
       "Adds an event after you tap Add. Access is add-only: it never reads your calendar.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "iphone",
     icon: { symbol: "calendar", bg: "#FFFFFF", fg: "#FF3B30" },
     brand: "apple-calendar",

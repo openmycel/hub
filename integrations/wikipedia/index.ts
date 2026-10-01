@@ -37,7 +37,7 @@ const skill: Skill = {
     tagline: "Facts from the article, not made up",
     description:
       "Looks up a person, a place or a thing in Wikipedia and answers with the article's first sentences and the link. The model does not write the answer, so it does not invent facts. Only the subject of your question goes to Wikipedia, in the language you write in; nothing else leaves the phone. No news, prices or schedules: it is an encyclopedia.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "integration",
     icon: { symbol: "book.closed.fill", bg: "#FFFFFF", fg: "#000000", scale: 0.5 },
     can: "facts from Wikipedia",

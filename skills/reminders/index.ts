@@ -83,7 +83,7 @@ const skill: Skill = {
     tagline: "Reminders and timers from the chat",
     description:
       "Adds a reminder after you tap Add, with an alert at its time. A timer is a reminder too: it rings from Reminders with the app closed.",
-    author: "OpenMycel",
+    publisher: "openmycel",
     category: "iphone",
     icon: { symbol: "checklist", bg: "#FFFFFF", fg: "#007AFF" },
     brand: "apple-reminders",
